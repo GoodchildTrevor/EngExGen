@@ -7,7 +7,7 @@ sentence-splitter==1.4
 langdetect==1.0.9
 random2==1.0.1
 spacy==3.1.2
-en-core-web-sm@https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.1.0/en_core_web_sm-3.1.0.tar.gz
+en-core-web-sm==3.5.0
 pyinflect==0.5.1
 typer==0.3.2
 click==7.1.2
