@@ -22,12 +22,7 @@ dependencies_full = ['subject', 'predicate', 'adjectival modifier', 'nominal sub
 
 model = api.load("glove-wiki-gigaword-100")
 
-try:
-    nlp = spacy.load('en_core_web_sm')
-except OSError:
-    print('Downloading language model for the first time.')
-    spacy.cli.download('en_core_web_sm')
-    nlp = spacy.load('en_core_web_sm')
+nlp = spacy.load('en_core_web_sm')
 
 st.header('Генератор упражнений по английскому')
 st.subheader('Вставьте текст для создания упражнений (не больше 30 предложений)')
