@@ -10,7 +10,7 @@ English Exercise Generator is a Python-based tool that generates English languag
 * Includes checks for the language of input text, ensuring exercises are only generated from English sentences.
 * Outputs include the exercise question, multiple options for answers (where applicable), and the correct answer.
 
-# Dependencies
+## Dependencies
 * Gensim
 * Pandas
 * NumPy
@@ -23,13 +23,13 @@ English Exercise Generator is a Python-based tool that generates English languag
 * en_core_web_sm
 * PyInflect
   
-# How to use
+## How to use
 * Run the application. A text box will be displayed in the Streamlit application interface.
 * Enter your text (paragraph or article) into the text box and submit.
 * The application will generate a series of exercises based on your input text.
 * Answer the exercises. Immediate feedback on your answers will be provided.
 * Continue learning!
 
-# Notes
+## Notes
 * Make sure the text you input is in English and doesn't exceed 30 sentences.
 * Ensure all the required libraries are installed and imported.
