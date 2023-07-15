@@ -25,7 +25,3 @@ jobs:
     - name: Install spacy model
       run: |
         python -m spacy download en_core_web_sm
-
-    - name: Purge pip cache
-      run: |
-        python -m pip cache purge
